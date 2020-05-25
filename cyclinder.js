@@ -1,10 +1,6 @@
-let r = +prompt("enter the radius");
-let h = +prompt("enter the height")
-let result;
-
-function area() {
-   result = (2 * 3.14 * r * h)+ (2 * 3.14 * r * r );
-   console.log(result);
+function area(r, h) {
+   let result = (2 * 3.14 * r * h)+ (2 * 3.14 * r * r );
    return result;
    }
-       
+   
+module.exports = area;   
